@@ -15,14 +15,10 @@ function Product(){
                     <img src="./images/Product3image2.jpg" alt="Tyre & rim care"/> 
                     <p>Tyre & rim care</p>
                 </div>
-                <div className="product_info">
-                    <img src="./images/Product3image3.jpg" alt="Helmets" />
-                    <p>Helmets</p> 
+                
                 </div>
                 </div>
             </div>
-            
-        </div>
     );
 }
 

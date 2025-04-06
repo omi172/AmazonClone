@@ -15,10 +15,7 @@ function Product(){
                     <img src="./images/Product2image2.jpg" alt="Figurines, vases & more"/> 
                     <p>Figurines, vases & more</p>
                 </div>
-                <div className="product_info">
-                    <img src="./images/Product2image4.jpg" alt="Lighting solutions" />
-                    <p>Lighting solutions</p> 
-                </div>
+                
                 </div>
             </div>
            

@@ -12,10 +12,6 @@ function Product(){
                     <p>Starting @249|boAt</p>
                 </div>
                 <div className="product_info">
-                    <img src="./images/Product4image2.jpg" alt="Boult"/> 
-                    <p>Starting @349|boult</p>
-                </div>
-                <div className="product_info">
                     <img src="./images/Product4image3.jpg" alt="Noise" />
                     <p>Starting @649|Noise</p> 
                 </div>

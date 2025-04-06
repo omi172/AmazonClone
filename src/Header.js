@@ -1,5 +1,8 @@
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faUser} from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 
 import './Header.css';
 function Header(){
@@ -35,10 +38,13 @@ function Header(){
                         Prime 
                     </span>
                 </div>
-                <div className = "header_optionBasket">
-                    <ShoppingBasketIcon />
-                    <span className="header_optionLineTwoHeader_BasketCount"> 0 </span>
-                </div> 
+                <Link>
+                    <div className = "header_optionBasket">
+                        <ShoppingBasketIcon />
+                        <span className="header_optionLineTwoHeader_BasketCount"> 0 </span>
+                    </div> 
+                </Link>
+                
 
             </div>
         </div>
